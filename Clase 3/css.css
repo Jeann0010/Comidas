@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.comida {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.icon-facil {
+    background-color: #4CAF50; /* Green */
+}
+
+.icon-no-facil {
+    background-color: #f44336; /* Red */
+}
+
+.data {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.data h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.data p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.Horas\ de\ preparacion {
+    background-color: #eee;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pequeña mejora visual para los bordes */
+.comida:first-child {
+    margin-top: 10px;
+}
+
+.comida:last-child {
+    margin-bottom: 0;
+}
